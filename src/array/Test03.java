@@ -20,6 +20,7 @@ public class Test03 {
             System.out.print("Masukkan angka ke-"+ i +" : ");
             angka[i] = sc.nextInt();
         }
+        sc.close();
         
         for(i=0;i<angka.length;i++){
             System.out.println("Angka ke "+i+": "+ angka[i]);

@@ -17,6 +17,7 @@ public class Test02 {
             System.out.print("Masukkan angka ke-"+ (i+1) +" : ");
             angka[i] = sc.nextInt();
         }
+        sc.close();
         
         for(int i=0;i<angka.length;i++){
             System.out.println("Angka ke "+(i+1)+": "+ angka[i]);

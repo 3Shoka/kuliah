@@ -12,6 +12,7 @@ public class Array02 {
             System.out.print("Masukkan nilai= ");
             nilai[i] = in.nextInt();
         }
+        in.close();
         System.out.println("=================================");
         for (int i = 0; i < nilai.length; i++) {
             System.out.println("Nilai Ke-" + (i + 1) + "= " + nilai[i]);

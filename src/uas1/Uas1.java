@@ -7,7 +7,7 @@ public class Uas1 {
         Scanner sc;
         int jmlMhs = 0, jmlNilai;
         String nim, nama;
-        double nilai, cacah[], total, rata;
+        double cacah[], total;
         sc = new Scanner(System.in);
         System.out.print("Masukkan jumlah Mahasiswa: ");
         jmlMhs = sc.nextInt();
@@ -29,6 +29,9 @@ public class Uas1 {
                 cacah[j] = sc.nextDouble();
                 total += cacah[j];
             }
+            sc.close();
+            System.out.println("NIM: " + nim);
+            System.out.println("Nama: " + nama);
             System.out.println("Total nilai: " + total);
             System.out.println("Rata-rata nilai: " + (total / jmlNilai));
         }

@@ -28,8 +28,11 @@ public class RataRataNilai {
             nilai[i] = sc.nextDouble();
             total += nilai[i];
         }
-        
+        sc.close();
         rata = total/nilai.length;
+
+        System.out.println("NIM                 : "+nim);
+        System.out.println("Nama                : "+nama);
         System.out.println("Total nilai         : "+total);
         System.out.println("Rata-rata nilai     : "+ String.format("%.2f", rata));
 

@@ -20,7 +20,7 @@ public class Matriks04 {
             }
             System.out.println("");
         }
-        
+        sc.close();
         for (int i = 0; i < matrik.length; i++) {
             for (int j = 0; j < matrik[i].length; j++) {
                 System.out.print(matrik[i][j]+ " ");

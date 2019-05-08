@@ -19,6 +19,7 @@ public class ExchangeSort02 {
             System.out.print("Masukkan data ke "+i+" = ");
             data[i] = in.nextInt();
         }
+        in.close();
         
         System.out.println();
         System.out.println("Data sebelum sorting");

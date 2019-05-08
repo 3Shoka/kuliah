@@ -26,6 +26,7 @@ public class ArrayMultidimensi02 {
             }
             System.out.println("");
         }
+        sc.close();
         
         // output nilai matrik
         for (int i = 0; i < matrik.length; i++) {
