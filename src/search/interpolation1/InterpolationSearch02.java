@@ -71,6 +71,7 @@ public class InterpolationSearch02 {
         }
         System.out.print("Elemen data yang akan dicari: ");
         int key = scan.nextInt();
+        scan.close();
  
         int result = interpolationSearch(arr, key);
  

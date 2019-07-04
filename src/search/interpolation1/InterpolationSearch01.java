@@ -16,7 +16,7 @@ public class InterpolationSearch01 {
         data[6] = 23;
         data[7] = 31;
         data[8] = 35;
-        int low, high, flag, cari, pos1, pos, n;
+        int low, high, flag, cari, pos, n;
         flag = 0;
         cari = 37;
         n = 9;
